@@ -7,8 +7,7 @@ str = input("Введите шестизначное число:")
 
 if len(str) != 6 :
     print("Вы ввели не шестизначное число!")
+elif (int(str[0]) + int(str[1]) + int(str[2])) == (int(str[3]) +int(str[4]) + int(str[5])) :
+    print("Да, Это счастливый билет!")
 else :
-    if (int(str[0]) + int(str[1]) + int(str[2])) == (int(str[3]) +int(str[4]) + int(str[5])) :
-        print("Да, Это счастливый билет!")
-    else :
-        print("Нет, Это несчастливый билет!")
+    print("Нет, Это несчастливый билет!")
