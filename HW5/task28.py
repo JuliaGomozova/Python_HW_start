@@ -8,7 +8,7 @@
 def sumAB(a, b):
     if b == 0:
         return a
-    return  sumAB(a+1, b-1)
+    return  sumAB(a + 1, b - 1)
 
 
 a = int(input("введите число А:")) 
