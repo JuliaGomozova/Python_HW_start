@@ -8,7 +8,7 @@ def powAB(a, b):
         return 1
     if b == 1:
         return a
-    return a*powAB(a, b-1)
+    return a * powAB(a, b - 1)
 
 
 a = int(input("введите число А:")) 
