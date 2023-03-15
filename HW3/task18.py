@@ -16,16 +16,15 @@ print(a)
 
 x = int(input("Введите любое число: "))
 
-i = 0
 dif = abs(x-a[0])
 num = a[0]
 
-for i in range(n):
-    if dif > abs(x - a[i]):
-        num = a[i]
-        dif = abs(x - a[i])
+for i in a:
+    if dif > abs(x - i):
+        num = i
+        dif = abs(x - i)
         if dif == 0:
-            print(i)
+          
             break
 
 print(f"Самое близкое к {x} число из массива - это {num}")
