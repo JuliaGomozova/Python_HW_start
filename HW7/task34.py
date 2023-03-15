@@ -19,7 +19,7 @@ def count_syllables(word):
 
 
 text = input("введите стих:").lower().split()
-if len(text) < 2:
+while len(text) < 2:
     print("слишком мало фраз")
     break
 else:
